@@ -17,50 +17,68 @@
 | Copy Line Up	                            | Shift+Alt+Up	    | editor.action.copyLinesUpAction                   |
 | Undo	                                    | Ctrl+Z	        | undo                                              |
 | Redo	                                    | Ctrl+Y	        | redo                                              |
-| Add Selection To Next Find Match	        | Ctrl+D	        |editor.action.addSelectionToNextFindMatch          |
-| Move Last Selection To Next Find Match	| Ctrl+K Ctrl+D	    |editor.action.moveSelectionToNextFindMatch         |
-| Undo last cursor operation	            | Ctrl+U	        |cursorUndo                                         |
-| Insert cursor at end of each line selected| Shift+Alt+I	    |editor.action.insertCursorAtEndOfEachLineSelected  |
-| Select all occurrence of current selection| Ctrl+Shift+L	    |editor.action.selectHighlights                     |
-| Select all occurrences of current word	| Ctrl+F2	        |editor.action.changeAll                            |
-| Select current line	                    | Ctrl+L	        |expandLineSelection                                |
-| Insert Cursor Below	                    | Ctrl+Alt+Down	    |editor.action.insertCursorBelow                    |
-| Insert Cursor Above	                    | Ctrl+Alt+Up	    |editor.action.insertCursorAbove                    |
-| Jump to matching bracket	                | Ctrl+Shift+\	    |editor.action.jumpToBracket                        |
-| Indent Line	                            | Ctrl+]	        |editor.action.indentLines                          |
-| Outdent Line	                            | Ctrl+[	        |editor.action.outdentLines                         |
-| Go to Beginning of Line	                | Home	            |cursorHome                                         |
-| Go to End of Line	                        | End	            |cursorEnd                                          |
-| Go to End of File	                        | Ctrl+End	        |cursorBottom                                       |
-|Go to Beginning of File	                | Ctrl+Home	        |cursorTop                                          |
-|Scroll Line Down	                        | Ctrl+Down	        |scrollLineDown                                     |
-|Scroll Line Up	                            | Ctrl+Up	        |scrollLineUp                                       |
-|Scroll Page Down	                        | Alt+PageDown	    |scrollPageDown                                     |
-|Scroll Page Up	                            | Alt+PageUp	    |scrollPageUp                                       |
-|Fold (collapse) region	                    | Ctrl+Shift+[	    |editor.fold                                        |
-|Unfold (uncollapse) region	                | Ctrl+Shift+]	    |editor.unfold                                      |
-|Toggle Fold region	                        | Ctrl+K Ctrl+L	    |editor.toggleFold                                  |
-|Fold (collapse) all subregions	            | Ctrl+K Ctrl+[	    |editor.foldRecursively                             |
-|Unfold (uncollapse) all subregions	        | Ctrl+K Ctrl+]	    |editor.unfoldRecursively                           |
-|Fold (collapse) all regions	            | Ctrl+K Ctrl+0	    |editor.foldAll                                     |
-|Unfold (uncollapse) all regions	        | Ctrl+K Ctrl+J	    |editor.unfoldAll                                   |
-|Add Line Comment	                        | Ctrl+K Ctrl+C	    |editor.action.addCommentLine                       |
-|Remove Line Comment	                    | Ctrl+K Ctrl+U	    |editor.action.removeCommentLine                    |
-|Toggle Line Comment	                    | Ctrl+/	        |editor.action.commentLine                          |
-|Toggle Block Comment	                    | Shift+Alt+A	    |editor.action.blockComment                         |
-|Find	                                    | Ctrl+F	        |actions.find                                       |
-|Replace	                                | Ctrl+H	        |editor.action.startFindReplaceAction               |
-|Find Next	                                | Enter	            |editor.action.nextMatchFindAction                  |
-|Find Previous	                            | Shift+Enter	    |editor.action.previousMatchFindAction              |
-|Select All Occurrences of Find Match	    | Alt+Enter	        |editor.action.selectAllMatches                     |
-|Toggle Find Case Sensitive	                | Alt+C	            |toggleFindCaseSensitive                            |
-|Toggle Find Regex	                        | Alt+R	            |toggleFindRegex                                    |
-|Toggle Find Whole Word	                    | Alt+W	            |toggleFindWholeWord                                |
-|Toggle Use of Tab Key for Setting Focus	| Ctrl+M	        |editor.action.toggleTabFocusMode                   |
-|Toggle Word Wrap	                        | Alt+Z	            |editor.action.toggleWordWrap                       |
+| Add Selection To Next Find Match	        | Ctrl+D	        | editor.action.addSelectionToNextFindMatch          |
+| Move Last Selection To Next Find Match	| Ctrl+K Ctrl+D	    | editor.action.moveSelectionToNextFindMatch         |
+| Undo last cursor operation	            | Ctrl+U	        | cursorUndo                                         |
+| Insert cursor at end of each line selected| Shift+Alt+I	    | editor.action.insertCursorAtEndOfEachLineSelected  |
+| Select all occurrence of current selection| Ctrl+Shift+L	    | editor.action.selectHighlights                     |
+| Select all occurrences of current word	| Ctrl+F2	        | editor.action.changeAll                            |
+| Select current line	                    | Ctrl+L	        | expandLineSelection                                |
+| Insert Cursor Below	                    | Ctrl+Alt+Down	    | editor.action.insertCursorBelow                    |
+| Insert Cursor Above	                    | Ctrl+Alt+Up	    | editor.action.insertCursorAbove                    |
+| Jump to matching bracket	                | Ctrl+Shift+\	    | editor.action.jumpToBracket                        |
+| Indent Line	                            | Ctrl+]	        | editor.action.indentLines                          |
+| Outdent Line	                            | Ctrl+[	        | editor.action.outdentLines                         |
+| Go to Beginning of Line	                | Home	            | cursorHome                                         |
+| Go to End of Line	                        | End	            | cursorEnd                                          |
+| Go to End of File	                        | Ctrl+End	        | cursorBottom                                       |
+| Go to Beginning of File	                | Ctrl+Home	        | cursorTop                                          |
+| Scroll Line Down	                        | Ctrl+Down	        | scrollLineDown                                     |
+| Scroll Line Up	                            | Ctrl+Up	        | scrollLineUp                                       |
+| Scroll Page Down	                        | Alt+PageDown	    | scrollPageDown                                     |
+| Scroll Page Up	                            | Alt+PageUp	    | scrollPageUp                                       |
+| Fold (collapse) region	                    | Ctrl+Shift+[	    | editor.fold                                        |
+| Unfold (uncollapse) region	                | Ctrl+Shift+]	    | editor.unfold                                      |
+| Toggle Fold region	                        | Ctrl+K Ctrl+L	    | editor.toggleFold                                  |
+| Fold (collapse) all subregions	            | Ctrl+K Ctrl+[	    | editor.foldRecursively                             |
+| Unfold (uncollapse) all subregions	        | Ctrl+K Ctrl+]	    | editor.unfoldRecursively                           |
+| Fold (collapse) all regions	            | Ctrl+K Ctrl+0	    | editor.foldAll                                     |
+| Unfold (uncollapse) all regions	        | Ctrl+K Ctrl+J	    | editor.unfoldAll                                   |
+| Add Line Comment	                        | Ctrl+K Ctrl+C	    | editor.action.addCommentLine                       |
+| Remove Line Comment	                    | Ctrl+K Ctrl+U	    | editor.action.removeCommentLine                    |
+| Toggle Line Comment	                    | Ctrl+/	        | editor.action.commentLine                          |
+| Toggle Block Comment	                    | Shift+Alt+A	    | editor.action.blockComment                         |
+| Find	                                    | Ctrl+F	        | actions.find                                       |
+| Replace	                                | Ctrl+H	        | editor.action.startFindReplaceAction               |
+| Find Next	                                | Enter	            | editor.action.nextMatchFindAction                  |
+| Find Previous	                            | Shift+Enter	    | editor.action.previousMatchFindAction              |
+| Select All Occurrences of Find Match	    | Alt+Enter	        | editor.action.selectAllMatches                     |
+| Toggle Find Case Sensitive	                | Alt+C	            | toggleFindCaseSensitive                            |
+| Toggle Find Regex	                        | Alt+R	            | toggleFindRegex                                    |
+| Toggle Find Whole Word	                    | Alt+W	            | toggleFindWholeWord                                |
+| Toggle Use of Tab Key for Setting Focus	| Ctrl+M	        | editor.action.toggleTabFocusMode                   |
+| Toggle Word Wrap	                        | Alt+Z	            | editor.action.toggleWordWrap                       |
 ---------------------------------------------------------------------------------------------------------------------
 
 ## Rich Languages Editing
 ---------------------------------------------------------------------------------------------------------------------
 | Command	                                | Key	            | Command id                                        |
 |-------------------------------------------|-------------------|---------------------------------------------------|
+| Trigger Suggest	                        | Ctrl+Space	    | editor.action.triggerSuggest                      |
+| Trigger Parameter Hints	                | Ctrl+Shift+Space	| editor.action.triggerParameterHints               |
+| Format Document	                        | Shift+Alt+F	    | editor.action.formatDocument                      |
+| Format Selection	                        | Ctrl+K Ctrl+F	    | editor.action.formatSelection                     |
+| Go to Definition	                        | F12	            | editor.action.revealDefinition                    |
+| Show Hover	                            | Ctrl+K Ctrl+I	    | editor.action.showHover                           |
+| Peek Definition	                        | Alt+F12	        | editor.action.peekDefinition                      |
+| Open Definition to the Side	            | Ctrl+K F12	    | editor.action.revealDefinitionAside               |
+| Quick Fix	                                | Ctrl+.	        | editor.action.quickFix                            |
+| Go to References	                        | Shift+F12	        | editor.action.goToReferences                      |
+| Rename Symbol	                            | F2	            | editor.action.rename                              |
+| Replace with Next Value	                | Ctrl+Shift+.	    | editor.action.inPlaceReplace.down                 |
+| Replace with Previous Value	            | Ctrl+Shift+,	    | editor.action.inPlaceReplace.up                   |
+| Expand AST Selection	                    | Shift+Alt+Right	| editor.action.smartSelect.expand                  |
+| Shrink AST Selection	                    | Shift+Alt+Left	| editor.action.smartSelect.shrink                  |
+| Trim Trailing Whitespace	                | Ctrl+K Ctrl+X	    | editor.action.trimTrailingWhitespace              |
+| Change Language Mode	                    | Ctrl+K M	        | workbench.action.editor.changeLanguageMode        |
+---------------------------------------------------------------------------------------------------------------------
